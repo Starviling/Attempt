@@ -1,10 +1,10 @@
-package mod.starhnl1;
+package starhnl1;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import mod.starhnl1.lists.BlockList;
-import mod.starhnl1.lists.ItemList;
+import starhnl1.lists.BlockList;
+import starhnl1.lists.ItemList;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;

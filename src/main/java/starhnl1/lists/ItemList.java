@@ -1,4 +1,4 @@
-package mod.starhnl1.lists;
+package starhnl1.lists;
 
 import net.minecraft.item.Item;
 

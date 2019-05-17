@@ -1,6 +1,6 @@
-package mod.starhnl1;
+package starhnl1;
 
-import mod.starhnl1.lists.BlockList;
+import starhnl1.lists.BlockList;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
