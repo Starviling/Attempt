@@ -29,6 +29,7 @@ import starhnl1.lists.ArmorMaterialList;
 import starhnl1.lists.BlockList;
 import starhnl1.lists.ItemList;
 import starhnl1.lists.ToolMaterialList;
+import starhnl1.world.OreGeneration;
 
 @Mod("starhnl1") 
 public class StuffMod 
@@ -51,6 +52,7 @@ public class StuffMod
 	
 	private void setup(final FMLCommonSetupEvent event)
 	{
+		OreGeneration.setupOreGeneration();
 		logger.info("Setup Method Registered");
 	}
 	
