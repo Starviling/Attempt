@@ -20,4 +20,6 @@ public class ItemList
 	public static Item copper_chestplate;
 	public static Item copper_leggings;
 	public static Item copper_boots;
+	// Food
+	public static Item green_apple;
 }

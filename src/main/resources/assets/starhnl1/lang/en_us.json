@@ -15,5 +15,7 @@
 	"item.starhnl1.copper_helmet": "Copper Helmet",
 	"item.starhnl1.copper_chestplate": "Copper Chestplate",
 	"item.starhnl1.copper_leggings": "Copper Leggings",
-	"item.starhnl1.copper_boots": "Copper Boots"
+	"item.starhnl1.copper_boots": "Copper Boots",
+	
+	"item.starhnl1.test_food": "Test Food"
 }

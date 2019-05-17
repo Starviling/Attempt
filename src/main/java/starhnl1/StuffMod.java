@@ -10,6 +10,7 @@ import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemHoe;
 import net.minecraft.item.ItemSpade;
@@ -81,7 +82,10 @@ public class StuffMod
 					ItemList.copper_helmet = new ItemArmor(ArmorMaterialList.copper, EntityEquipmentSlot.HEAD, new Item.Properties().group(Stuff)).setRegistryName(location("copper_helmet")),
 					ItemList.copper_chestplate = new ItemArmor(ArmorMaterialList.copper, EntityEquipmentSlot.CHEST, new Item.Properties().group(Stuff)).setRegistryName(location("copper_chestplate")),
 					ItemList.copper_leggings = new ItemArmor(ArmorMaterialList.copper, EntityEquipmentSlot.LEGS, new Item.Properties().group(Stuff)).setRegistryName(location("copper_leggings")),
-					ItemList.copper_boots = new ItemArmor(ArmorMaterialList.copper, EntityEquipmentSlot.FEET, new Item.Properties().group(Stuff)).setRegistryName(location("copper_boots"))
+					ItemList.copper_boots = new ItemArmor(ArmorMaterialList.copper, EntityEquipmentSlot.FEET, new Item.Properties().group(Stuff)).setRegistryName(location("copper_boots")),
+					// Food
+					ItemList.green_apple = new ItemFood(4, 1.0f, false, new Item.Properties().group(Stuff)).setRegistryName(location("green_apple"))
+					
 			);
 			logger.info("Items registered");
 		}
