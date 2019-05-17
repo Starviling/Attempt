@@ -84,7 +84,7 @@ public class StuffMod
 					ItemList.copper_leggings = new ItemArmor(ArmorMaterialList.copper, EntityEquipmentSlot.LEGS, new Item.Properties().group(Stuff)).setRegistryName(location("copper_leggings")),
 					ItemList.copper_boots = new ItemArmor(ArmorMaterialList.copper, EntityEquipmentSlot.FEET, new Item.Properties().group(Stuff)).setRegistryName(location("copper_boots")),
 					// Food
-					ItemList.green_apple = new ItemFood(4, 1.0f, false, new Item.Properties().group(Stuff)).setRegistryName(location("green_apple"))
+					ItemList.green_apple = new ItemFood(4, 2.4f, false, new Item.Properties().group(Stuff)).setRegistryName(location("green_apple"))
 					
 			);
 			logger.info("Items registered");
