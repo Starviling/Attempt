@@ -3,14 +3,15 @@ package starhnl1;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import starhnl1.lists.BlockList;
-import starhnl1.lists.ItemList;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemHoe;
+import net.minecraft.item.ItemSpade;
+import net.minecraft.item.ItemSword;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
@@ -19,6 +20,11 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import starhnl1.items.ItemCustomAxe;
+import starhnl1.items.ItemCustomPickaxe;
+import starhnl1.lists.BlockList;
+import starhnl1.lists.ItemList;
+import starhnl1.lists.ToolMaterialList;
 
 @Mod("starhnl1") 
 public class StuffMod 
@@ -59,7 +65,12 @@ public class StuffMod
 			(
 					ItemList.copper_ore = new ItemBlock(BlockList.copper_ore, new Item.Properties().group(Stuff)).setRegistryName(BlockList.copper_ore.getRegistryName()),
 					ItemList.copper_block = new ItemBlock(BlockList.copper_block, new Item.Properties().group(Stuff)).setRegistryName(BlockList.copper_block.getRegistryName()),
-					ItemList.copper_ingot = new Item(new Item.Properties().group(Stuff)).setRegistryName(location("copper_ingot"))
+					ItemList.copper_ingot = new Item(new Item.Properties().group(Stuff)).setRegistryName(location("copper_ingot")),
+					ItemList.copper_axe = new ItemCustomAxe(ToolMaterialList.copper, 4.0f, -3.2f, new Item.Properties().group(Stuff)).setRegistryName(location("copper_axe")),
+					ItemList.copper_hoe = new ItemHoe(ToolMaterialList.copper, -2.0f, new Item.Properties().group(Stuff)).setRegistryName(location("copper_hoe")),
+					ItemList.copper_pickaxe = new ItemCustomPickaxe(ToolMaterialList.copper, -2, -2.8f, new Item.Properties().group(Stuff)).setRegistryName(location("copper_pickaxe")),
+					ItemList.copper_shovel = new ItemSpade(ToolMaterialList.copper, -1.0f, -2.4f, new Item.Properties().group(Stuff)).setRegistryName(location("copper_shovel")),
+					ItemList.copper_sword = new ItemSword(ToolMaterialList.copper, 0, -2.4f, new Item.Properties().group(Stuff)).setRegistryName(location("copper_sword"))
 			);
 			logger.info("Items registered");
 		}
