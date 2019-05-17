@@ -1,0 +1,5 @@
+{
+	"variants": {
+        "": { "model": "starhnl1:block/copper_block" }
+    }
+}

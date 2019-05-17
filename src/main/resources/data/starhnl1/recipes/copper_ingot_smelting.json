@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:smelting",
+	
+	"ingredient":{"tag":"starhnl1:copper_ore"},
+	
+	"result": "starhnl1:copper_ingot",
+	
+	"experience": 2.3,
+		
+	"cookingtime": 200
+}
