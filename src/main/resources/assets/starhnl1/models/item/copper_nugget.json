@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "starhnl1:item/green_apple"
+        "layer0": "starhnl1:item/copper_nugget"
     }
 }

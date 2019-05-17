@@ -1,0 +1,15 @@
+{
+	"replace": false,
+	"values":
+	[
+		"starhnl1:copper_axe",
+		"starhnl1:copper_hoe",
+		"starhnl1:copper_pickaxe",
+		"starhnl1:copper_shovel",
+		"starhnl1:copper_sword",
+		"starhnl1:copper_helmet",
+		"starhnl1:copper_chestplate",
+		"starhnl1:copper_leggings",
+		"starhnl1:copper_boots"
+	]
+}

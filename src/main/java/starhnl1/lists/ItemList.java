@@ -9,6 +9,7 @@ public class ItemList
 	public static Item copper_block;
 	// Items
 	public static Item copper_ingot;
+	public static Item copper_nugget;
 	// Tools
 	public static Item copper_axe;
 	public static Item copper_hoe;
