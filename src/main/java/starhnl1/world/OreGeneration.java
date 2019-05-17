@@ -11,6 +11,11 @@ import net.minecraft.world.gen.placement.CountRangeConfig;
 import net.minecraftforge.registries.ForgeRegistries;
 import starhnl1.lists.BlockList;
 
+/**
+ * Generates Ore for the world
+ * @author HNL2000
+ *
+ */
 public class OreGeneration 
 {
 	public static void setupOreGeneration()
