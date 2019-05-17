@@ -1,11 +1,19 @@
 {
 	"itemGroup.stuff": "Stuff",
+	
 	"block.starhnl1.copper_ore": "Copper Ore",
 	"block.starhnl1.copper_block": "Copper Block",
+	
 	"item.starhnl1.copper_ingot": "Copper Ingot",
+	
 	"item.starhnl1.copper_axe": "Copper Axe",
 	"item.starhnl1.copper_hoe": "Copper Hoe",
 	"item.starhnl1.copper_pickaxe": "Copper Pickaxe",
 	"item.starhnl1.copper_shovel": "Copper Shovel",
-	"item.starhnl1.copper_sword": "Copper Sword"
+	"item.starhnl1.copper_sword": "Copper Sword",
+	
+	"item.starhnl1.copper_helmet": "Copper Helmet",
+	"item.starhnl1.copper_chestplate": "Copper Chestplate",
+	"item.starhnl1.copper_leggings": "Copper Leggings",
+	"item.starhnl1.copper_boots": "Copper Boots"
 }
