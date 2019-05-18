@@ -17,11 +17,24 @@ public class ItemList
 	public static Item titanium_ingot;
 	public static Item silver_ingot;
 	// Tools
-	public static Item copper_axe;
-	public static Item copper_hoe;
-	public static Item copper_pickaxe;
-	public static Item copper_shovel;
-	public static Item copper_sword;
+		// Copper
+		public static Item copper_axe;
+		public static Item copper_hoe;
+		public static Item copper_pickaxe;
+		public static Item copper_shovel;
+		public static Item copper_sword;
+		// Silver
+		public static Item silver_axe;
+		public static Item silver_hoe;
+		public static Item silver_pickaxe;
+		public static Item silver_shovel;
+		public static Item silver_sword;
+		// Titanium
+		public static Item titanium_axe;
+		public static Item titanium_hoe;
+		public static Item titanium_pickaxe;
+		public static Item titanium_shovel;
+		public static Item titanium_sword;
 	// Armor
 	public static Item copper_helmet;
 	public static Item copper_chestplate;

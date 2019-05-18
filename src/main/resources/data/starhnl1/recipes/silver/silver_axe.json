@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"II",
+		"IS",
+		" S"
+	],
+	
+	"key":
+	{
+		"I": {"item":"starhnl1:silver_ingot"},
+		"S": {"item":"minecraft:stick"}
+	},
+	
+	"result": {"item":"starhnl1:silver_axe"}
+}

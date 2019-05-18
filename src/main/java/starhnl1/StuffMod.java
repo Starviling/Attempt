@@ -8,6 +8,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
+import net.minecraft.item.Item.Properties;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemFood;
@@ -82,11 +83,24 @@ public class StuffMod
 					ItemList.titanium_ingot = new Item(new Item.Properties().group(Stuff)).setRegistryName(location("titanium_ingot")),
 					ItemList.silver_ingot = new Item(new Item.Properties().group(Stuff)).setRegistryName(location("silver_ingot")),
 					// Tools
-					ItemList.copper_axe = new ItemCustomAxe(ToolMaterialList.copper, 4.0f, -3.2f, new Item.Properties().group(Stuff)).setRegistryName(location("copper_axe")),
-					ItemList.copper_hoe = new ItemHoe(ToolMaterialList.copper, -2.0f, new Item.Properties().group(Stuff)).setRegistryName(location("copper_hoe")),
-					ItemList.copper_pickaxe = new ItemCustomPickaxe(ToolMaterialList.copper, -2, -2.8f, new Item.Properties().group(Stuff)).setRegistryName(location("copper_pickaxe")),
-					ItemList.copper_shovel = new ItemSpade(ToolMaterialList.copper, -1.0f, -2.4f, new Item.Properties().group(Stuff)).setRegistryName(location("copper_shovel")),
-					ItemList.copper_sword = new ItemSword(ToolMaterialList.copper, 0, -2.4f, new Item.Properties().group(Stuff)).setRegistryName(location("copper_sword")),
+						// Copper
+						ItemList.copper_axe = new ItemCustomAxe(ToolMaterialList.copper, 4.0f, -3.2f, new Item.Properties().group(Stuff)).setRegistryName(location("copper_axe")),
+						ItemList.copper_hoe = new ItemHoe(ToolMaterialList.copper, -2.0f, new Item.Properties().group(Stuff)).setRegistryName(location("copper_hoe")),
+						ItemList.copper_pickaxe = new ItemCustomPickaxe(ToolMaterialList.copper, -2, -2.8f, new Item.Properties().group(Stuff)).setRegistryName(location("copper_pickaxe")),
+						ItemList.copper_shovel = new ItemSpade(ToolMaterialList.copper, -1.0f, -2.4f, new Item.Properties().group(Stuff)).setRegistryName(location("copper_shovel")),
+						ItemList.copper_sword = new ItemSword(ToolMaterialList.copper, 0, -2.4f, new Item.Properties().group(Stuff)).setRegistryName(location("copper_sword")),
+						// Silver
+						ItemList.silver_axe = new ItemCustomAxe(ToolMaterialList.silver, 4.0f, -3.2f, new Item.Properties().group(Stuff)).setRegistryName(location("silver_axe")),
+						ItemList.silver_hoe = new ItemHoe(ToolMaterialList.silver, -2.0f, new Item.Properties().group(Stuff)).setRegistryName(location("silver_hoe")),
+						ItemList.silver_pickaxe = new ItemCustomPickaxe(ToolMaterialList.silver, -2, -2.8f, new Item.Properties().group(Stuff)).setRegistryName(location("silver_pickaxe")),
+						ItemList.silver_shovel = new ItemSpade(ToolMaterialList.silver, -1.0f, -2.4f, new Item.Properties().group(Stuff)).setRegistryName(location("silver_shovel")),
+						ItemList.silver_sword = new ItemSword(ToolMaterialList.silver, 0, -2.4f, new Item.Properties().group(Stuff)).setRegistryName(location("silver_sword")),
+						// Titanium
+						ItemList.titanium_axe = new ItemCustomAxe(ToolMaterialList.titanium, 4.0f, -3.2f, new Item.Properties().group(Stuff)).setRegistryName(location("titanium_axe")),
+						ItemList.titanium_hoe = new ItemHoe(ToolMaterialList.titanium, -2.0f, new Item.Properties().group(Stuff)).setRegistryName(location("titanium_hoe")),
+						ItemList.titanium_pickaxe = new ItemCustomPickaxe(ToolMaterialList.titanium, -2, -2.8f, new Item.Properties().group(Stuff)).setRegistryName(location("titanium_pickaxe")),
+						ItemList.titanium_shovel = new ItemSpade(ToolMaterialList.titanium, -1.0f, -2.4f, new Item.Properties().group(Stuff)).setRegistryName(location("titanium_shovel")),
+						ItemList.titanium_sword = new ItemSword(ToolMaterialList.titanium, 0, -2.4f, new Item.Properties().group(Stuff)).setRegistryName(location("titanium_sword")),
 					// Armor
 					ItemList.copper_helmet = new ItemArmor(ArmorMaterialList.copper, EntityEquipmentSlot.HEAD, new Item.Properties().group(Stuff)).setRegistryName(location("copper_helmet")),
 					ItemList.copper_chestplate = new ItemArmor(ArmorMaterialList.copper, EntityEquipmentSlot.CHEST, new Item.Properties().group(Stuff)).setRegistryName(location("copper_chestplate")),

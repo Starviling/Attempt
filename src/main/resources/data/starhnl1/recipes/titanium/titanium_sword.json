@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"I",
+		"I",
+		"S"
+	],
+	
+	"key":
+	{
+		"I": {"item":"starhnl1:titanium_ingot"},
+		"S": {"item":"minecraft:stick"}
+	},
+	
+	"result": {"item":"starhnl1:titanium_shovel"}
+}
