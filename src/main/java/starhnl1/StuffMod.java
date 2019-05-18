@@ -72,9 +72,15 @@ public class StuffMod
 					// Blocks
 					ItemList.copper_ore = new ItemBlock(BlockList.copper_ore, new Item.Properties().group(Stuff)).setRegistryName(BlockList.copper_ore.getRegistryName()),
 					ItemList.copper_block = new ItemBlock(BlockList.copper_block, new Item.Properties().group(Stuff)).setRegistryName(BlockList.copper_block.getRegistryName()),
+					ItemList.titanium_ore = new ItemBlock(BlockList.titanium_ore, new Item.Properties().group(Stuff)).setRegistryName(BlockList.titanium_ore.getRegistryName()),
+					ItemList.titanium_block = new ItemBlock(BlockList.titanium_block, new Item.Properties().group(Stuff)).setRegistryName(BlockList.titanium_block.getRegistryName()),
+					ItemList.silver_ore = new ItemBlock(BlockList.silver_ore, new Item.Properties().group(Stuff)).setRegistryName(BlockList.silver_ore.getRegistryName()),
+					ItemList.silver_block = new ItemBlock(BlockList.silver_block, new Item.Properties().group(Stuff)).setRegistryName(BlockList.silver_block.getRegistryName()),
 					// Items
 					ItemList.copper_ingot = new Item(new Item.Properties().group(Stuff)).setRegistryName(location("copper_ingot")),
 					ItemList.copper_nugget = new Item(new Item.Properties().group(Stuff)).setRegistryName(location("copper_nugget")),
+					ItemList.titanium_ingot = new Item(new Item.Properties().group(Stuff)).setRegistryName(location("titanium_ingot")),
+					ItemList.silver_ingot = new Item(new Item.Properties().group(Stuff)).setRegistryName(location("silver_ingot")),
 					// Tools
 					ItemList.copper_axe = new ItemCustomAxe(ToolMaterialList.copper, 4.0f, -3.2f, new Item.Properties().group(Stuff)).setRegistryName(location("copper_axe")),
 					ItemList.copper_hoe = new ItemHoe(ToolMaterialList.copper, -2.0f, new Item.Properties().group(Stuff)).setRegistryName(location("copper_hoe")),
@@ -98,8 +104,12 @@ public class StuffMod
 		{
 			event.getRegistry().registerAll
 			(
-					BlockList.copper_ore = 	new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(2.0f,3.0f).sound(SoundType.STONE)).setRegistryName(location("copper_ore")),
-					BlockList.copper_block = new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(2.0f, 3.0f).sound(SoundType.METAL)).setRegistryName(location("copper_block"))
+					BlockList.copper_ore = 	 new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(2.0f,3.0f).sound(SoundType.STONE)).setRegistryName(location("copper_ore")),
+					BlockList.copper_block = new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(2.0f, 3.0f).sound(SoundType.METAL)).setRegistryName(location("copper_block")),
+					BlockList.titanium_ore =   new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(2.0f,3.0f).sound(SoundType.STONE)).setRegistryName(location("titanium_ore")),
+					BlockList.titanium_block = new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(2.0f,3.0f).sound(SoundType.STONE)).setRegistryName(location("titanium_block")),
+					BlockList.silver_ore =   new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(2.0f,3.0f).sound(SoundType.STONE)).setRegistryName(location("silver_ore")),
+					BlockList.silver_block = new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(2.0f,3.0f).sound(SoundType.STONE)).setRegistryName(location("silver_block"))		
 			);
 			logger.info("Blocks registered");
 		}

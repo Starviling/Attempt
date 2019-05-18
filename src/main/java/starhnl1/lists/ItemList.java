@@ -7,9 +7,15 @@ public class ItemList
 	// Blocks
 	public static Item copper_ore;
 	public static Item copper_block;
+	public static Item titanium_ore;
+	public static Item titanium_block;
+	public static Item silver_ore;
+	public static Item silver_block;
 	// Items
 	public static Item copper_ingot;
 	public static Item copper_nugget;
+	public static Item titanium_ingot;
+	public static Item silver_ingot;
 	// Tools
 	public static Item copper_axe;
 	public static Item copper_hoe;

@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"B"
+	],
+	
+	"key":
+	{
+		"B": {"item":"starhnl1:titanium_block"}
+	},
+	
+	"result": 
+	{
+		"item":"starhnl1:titanium_ingot",
+		"count": 9
+	}
+}

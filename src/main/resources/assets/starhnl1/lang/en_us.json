@@ -2,10 +2,16 @@
 	"itemGroup.stuff": "Stuff",
 	
 	"block.starhnl1.copper_ore": "Copper Ore",
-	"block.starhnl1.copper_block": "Copper Block",
+	"block.starhnl1.copper_block": "Block of Copper",
+	"block.starhnl1.titanium_ore": "Titanium Ore",
+	"block.starhnl1.titanium_block": "Block of Titanium",
+	"block.starhnl1.silver_ore": "Silver Ore",
+	"block.starhnl1.silver_block": "Block of Silver",
 	
 	"item.starhnl1.copper_ingot": "Copper Ingot",
 	"item.starhnl1.copper_nugget": "Copper Nugget",
+	"item.starhnl1.titanium_ingot": "Titanium Ingot",
+	"item.starhnl1.silver_ingot": "Silver Ingot",
 	
 	"item.starhnl1.copper_axe": "Copper Axe",
 	"item.starhnl1.copper_hoe": "Copper Hoe",
