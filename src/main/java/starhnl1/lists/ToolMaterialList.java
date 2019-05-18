@@ -7,7 +7,9 @@ import net.minecraft.item.crafting.Ingredient;
 
 public enum ToolMaterialList implements IItemTier
 {
-	copper(4.0f,4.0f,600,1,25,ItemList.copper_ingot);
+	copper(4.0f,4.0f,600,1,25,ItemList.copper_ingot),
+	silver(5.0f,5.0f,800,1,25,ItemList.silver_ingot),
+	titanium(6.0f,6.0f,1000,2,25,ItemList.titanium_ingot);
 	
 	private float attackDamage, efficiency;
 	private int durability, harvestLevel, enchantibility;

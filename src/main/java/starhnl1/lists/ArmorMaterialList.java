@@ -9,7 +9,9 @@ import net.minecraft.util.SoundEvent;
 
 public enum ArmorMaterialList implements IArmorMaterial
 {
-	copper("copper", 400, new int[] {1,3,4,2}, 25, ItemList.copper_ingot, "item.armor.equip_iron", 0.0f);
+	copper("copper", 400, new int[] {1,3,4,2}, 25, ItemList.copper_ingot, "item.armor.equip_iron", 0.0f),
+	titanium("titanium", 800, new int[] {2,6,7,3}, 25, ItemList.titanium_ingot, "item.armor.equip_iron", 1.0f),
+	silver("silver", 800, new int[] {1,3,5,2}, 25, ItemList.silver_ingot, "item.armor.equip_gold", 0.0f);
 	
 	private static final int[] max_damage_array = new int[]{13, 15, 16, 11};
 	private String name, equipSound;
