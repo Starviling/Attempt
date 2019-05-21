@@ -36,10 +36,22 @@ public class ItemList
 		public static Item titanium_shovel;
 		public static Item titanium_sword;
 	// Armor
-	public static Item copper_helmet;
-	public static Item copper_chestplate;
-	public static Item copper_leggings;
-	public static Item copper_boots;
+		// Copper
+		public static Item copper_helmet;
+		public static Item copper_chestplate;
+		public static Item copper_leggings;
+		public static Item copper_boots;
+		// Silver
+		public static Item silver_helmet;
+		public static Item silver_chestplate;
+		public static Item silver_leggings;
+		public static Item silver_boots;
+		// Titanium
+		public static Item titanium_helmet;
+		public static Item titanium_chestplate;
+		public static Item titanium_leggings;
+		public static Item titanium_boots;
+	
 	// Food
 	public static Item green_apple;
 }

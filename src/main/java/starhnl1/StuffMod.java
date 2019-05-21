@@ -102,10 +102,21 @@ public class StuffMod
 						ItemList.titanium_shovel = new ItemSpade(ToolMaterialList.titanium, -1.0f, -2.4f, new Item.Properties().group(Stuff)).setRegistryName(location("titanium_shovel")),
 						ItemList.titanium_sword = new ItemSword(ToolMaterialList.titanium, 0, -2.4f, new Item.Properties().group(Stuff)).setRegistryName(location("titanium_sword")),
 					// Armor
-					ItemList.copper_helmet = new ItemArmor(ArmorMaterialList.copper, EntityEquipmentSlot.HEAD, new Item.Properties().group(Stuff)).setRegistryName(location("copper_helmet")),
-					ItemList.copper_chestplate = new ItemArmor(ArmorMaterialList.copper, EntityEquipmentSlot.CHEST, new Item.Properties().group(Stuff)).setRegistryName(location("copper_chestplate")),
-					ItemList.copper_leggings = new ItemArmor(ArmorMaterialList.copper, EntityEquipmentSlot.LEGS, new Item.Properties().group(Stuff)).setRegistryName(location("copper_leggings")),
-					ItemList.copper_boots = new ItemArmor(ArmorMaterialList.copper, EntityEquipmentSlot.FEET, new Item.Properties().group(Stuff)).setRegistryName(location("copper_boots")),
+						// Copper
+						ItemList.copper_helmet = new ItemArmor(ArmorMaterialList.copper, EntityEquipmentSlot.HEAD, new Item.Properties().group(Stuff)).setRegistryName(location("copper_helmet")),
+						ItemList.copper_chestplate = new ItemArmor(ArmorMaterialList.copper, EntityEquipmentSlot.CHEST, new Item.Properties().group(Stuff)).setRegistryName(location("copper_chestplate")),
+						ItemList.copper_leggings = new ItemArmor(ArmorMaterialList.copper, EntityEquipmentSlot.LEGS, new Item.Properties().group(Stuff)).setRegistryName(location("copper_leggings")),
+						ItemList.copper_boots = new ItemArmor(ArmorMaterialList.copper, EntityEquipmentSlot.FEET, new Item.Properties().group(Stuff)).setRegistryName(location("copper_boots")),
+						// Silver
+						ItemList.silver_helmet = new ItemArmor(ArmorMaterialList.silver, EntityEquipmentSlot.HEAD, new Item.Properties().group(Stuff)).setRegistryName(location("silver_helmet")),
+						ItemList.silver_chestplate = new ItemArmor(ArmorMaterialList.silver, EntityEquipmentSlot.CHEST, new Item.Properties().group(Stuff)).setRegistryName(location("silver_chestplate")),
+						ItemList.silver_leggings = new ItemArmor(ArmorMaterialList.silver, EntityEquipmentSlot.LEGS, new Item.Properties().group(Stuff)).setRegistryName(location("silver_leggings")),
+						ItemList.silver_boots = new ItemArmor(ArmorMaterialList.silver, EntityEquipmentSlot.FEET, new Item.Properties().group(Stuff)).setRegistryName(location("silver_boots")),			
+						// Titanium
+						ItemList.titanium_helmet = new ItemArmor(ArmorMaterialList.titanium, EntityEquipmentSlot.HEAD, new Item.Properties().group(Stuff)).setRegistryName(location("titanium_helmet")),
+						ItemList.titanium_chestplate = new ItemArmor(ArmorMaterialList.titanium, EntityEquipmentSlot.CHEST, new Item.Properties().group(Stuff)).setRegistryName(location("titanium_chestplate")),
+						ItemList.titanium_leggings = new ItemArmor(ArmorMaterialList.titanium, EntityEquipmentSlot.LEGS, new Item.Properties().group(Stuff)).setRegistryName(location("titanium_leggings")),
+						ItemList.titanium_boots = new ItemArmor(ArmorMaterialList.titanium, EntityEquipmentSlot.FEET, new Item.Properties().group(Stuff)).setRegistryName(location("titanium_boots")),
 					// Food
 					ItemList.green_apple = new ItemFood(4, 2.4f, false, new Item.Properties().group(Stuff)).setRegistryName(location("green_apple"))
 					

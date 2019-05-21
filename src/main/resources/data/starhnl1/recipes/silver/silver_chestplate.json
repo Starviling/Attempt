@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"I I",
+		"III",
+		"III"
+	],
+	
+	"key":
+	{
+		"I": {"item":"starhnl1:silver_ingot"}
+	},
+	
+	"result": {"item":"starhnl1:silver_chestplate"}
+}
